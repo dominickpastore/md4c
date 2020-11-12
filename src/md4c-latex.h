@@ -37,6 +37,7 @@
 #define MD_LATEX_FLAG_DEBUG                  0x0001
 #define MD_LATEX_FLAG_SKIP_UTF8_BOM          0x0004
 #define MD_LATEX_FLAG_USE_LSTLISTING         0x0008
+#define MD_LATEX_FLAG_USE_BOOKTABS           0x0010
 
 
 /* Render Markdown into LaTeX.
