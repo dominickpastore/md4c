@@ -35,9 +35,12 @@
 
 /* If set, debug output from md_parse() is sent to stderr. */
 #define MD_LATEX_FLAG_DEBUG                  0x0001
+#define MD_LATEX_FLAG_USE_LISTINGS           0x0002
 #define MD_LATEX_FLAG_SKIP_UTF8_BOM          0x0004
-#define MD_LATEX_FLAG_USE_LSTLISTING         0x0008
-#define MD_LATEX_FLAG_USE_BOOKTABS           0x0010
+#define MD_LATEX_FLAG_NUMBER_HEADINGS        0x0008
+#define MD_LATEX_FLAG_H1_IS_CHAPTER          0x0010
+#define MD_LATEX_FLAG_H1_IS_PART             0x0020
+#define MD_LATEX_FLAG_USE_BOOKTABS           0x0040
 
 
 /* Render Markdown into LaTeX.
